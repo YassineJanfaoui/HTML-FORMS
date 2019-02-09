@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+	 crossorigin="anonymous">
+	<title>Ada student feedback</title>
+
+</head>
+
+<body>
+	<h1><span class="ada">ADA</span> Students Feedback</h1>
+	<div class="container">
+		<div class="text">
+			<img src="https://techcrunch.com/wp-content/uploads/2015/04/uncle-sam-we-want-you1-kopie_1.png" width="25%">
+			<h3 class="togive"> To give us feedback, because this course is made for you! Because it's all about you!</h3>
+			<p>Fill this form if you:
+				<br>
+				<ul>
+					<li> Find an error in the content or in the quizzes </li>
+					<li> Have a feedback about instructors or the experience</li>
+					<li> Have a suggestion on how to make the course better </li>
+				</ul>
+			</p>
+		</div>
+
+		<div class="form">
+			<h3>Email Us</h3>
+			<form>
+				<span class="name">
+					<label>Name:</label>
+					<br>
+					<input type="text" id="firstname" required>
+				</span>
+				<span class="track">
+					<label>Track:</label><br>
+					<select>
+						<option>AI</option>
+						<option>Web</option>
+						<option>Game</option>
+					</select>
+				</span><br>
+				<br><br>
+				<label>Slide name (or object):</label>
+				<br>
+				<input type="text" id="slidename" required>
+				<br><br>
+				<label>Message:</label>
+				<br>
+				<textarea name="message" rows="5" id="message" style="margin: 0px; width: 660px; height: 145px"></textarea>
+				<br><br>
+				<button type="submit" id="submit">Submit</button>
+				<br>
+
+
+			</form>
+		</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
